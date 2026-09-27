@@ -1,6 +1,6 @@
 # Zed Assembly Syntax
 
-Extension for [Zed](https://zed.dev) that adds ARM GNU assembler highlighting and [`asm-lsp`](https://github.com/bergercookie/asm-lsp) support. It uses an ARM-friendly [`fork`](https://github.com/mixieculez/tree-sitter-armgas) of the generic [`tree-sitter-asm`](https://github.com/RubixDev/tree-sitter-asm) grammar with explicit `@` comment parsing.
+Extension for [Zed](https://zed.dev) that adds ARM GNU assembler highlighting and [`asm-lsp`](https://github.com/bergercookie/asm-lsp) support. It uses an ARM-friendly [fork](https://github.com/mixieculez/tree-sitter-armgas) of the generic [`tree-sitter-asm`](https://github.com/RubixDev/tree-sitter-asm) grammar with explicit `@` comment parsing.
 
 ## Language Server
 
