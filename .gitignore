@@ -3,3 +3,4 @@ experiment.asm
 grammars
 target
 *.wasm
+tree-sitter-armgas/

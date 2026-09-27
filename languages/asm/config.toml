@@ -1,4 +1,4 @@
 name = "Assembly"
-grammar = "asm"
+grammar = "armgas"
 path_suffixes = ["asm", "s", "S"]
-line_comments = ["# ", "; ", "// "]
+line_comments = ["@ "]

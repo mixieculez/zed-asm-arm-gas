@@ -1,14 +1,14 @@
 name = "Assembly Language Server"
 version = "0.1.0"
-authors = ["Jacob Parker <blocckba5her@gmail.com>"]
-description = "Assembly syntax highlighting and language server"
-repository = "https://github.com/DevBlocky/zed-asm"
+authors = ["Jacob Parker <blocckba5her@gmail.com>", "Michael Boyer <mb.mixie@icloud.com"]
+description = "ARM GNU assembly syntax highlighting and language server"
+repository = "https://github.com/mixieculez/zed-asm-arm-gas"
 id = "assembly"
 schema_version = 1
 
-[grammars.asm]
-repository = "https://github.com/RubixDev/tree-sitter-asm"
-commit = "04962e15f6b464cf1d75eada59506dc25090e186"
+[grammars.armgas]
+repository = "https://github.com/mixieculez/tree-sitter-armgas"
+commit = "a5baba07885c517d9979d1663172643e317ee598"
 
 [language_servers.asm-lsp]
 name = "asm-lsp"
